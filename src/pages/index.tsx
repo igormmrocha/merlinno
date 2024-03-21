@@ -42,7 +42,7 @@
       </div>
       <div className="bg-white w-full md:w-2/3 sm:w-full p-5 m-5 flex flex-row rounded-lg items-center" onClick={handleClick} style={{ cursor: 'pointer' }}>
   {/* Image */}
-  <div className="overflow-hidden mr-3" style={{ width: '400px', height: '400px' }}>
+  <div className="overflow-hidden mr-3 rounded-lg" style={{ width: '400px', height: '400px' }}>
     <img src={preview.src} alt="Preview" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
   </div>
   {/* Text */}
