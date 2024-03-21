@@ -12,7 +12,7 @@
       <div className=' min-h-screen bg-white'>
       
       <Head>
-        <title>Merlinno - Soluções Digitais</title>
+        <title>Merlinx - Soluções Digitais</title>
         <link rel="icon" href="/icon.svg" />
       </Head>
       <div className="flex flex-col">
@@ -36,22 +36,30 @@
         </div>
       </div>
       </div>
-      <div className='bg-mod flex flex-col items-center pb-20 min-h-96'>
+      <div className='bg-mod flex flex-col items-center pb-20 min-h-screen'>
       <div className='text-black font-bold text-3xl mb-4 mt-10' id='solucoes'>
         <h1>Soluções</h1>
       </div>
-      <div className="bg-white w-full md:w-1/2 sm:w-full p-5 m-5 flex flex-col rounded-lg" onClick={handleClick} style={{ cursor: 'pointer' }}>
-          {/* Image */}
-          <div className="overflow-hidden">
-            <img src={preview.src} alt="Preview" style={{ width: '100%', height: 'auto' }} />
-          </div>
-          {/* Text */}
-          <div className="overflow-x-auto mt-3 max-w-full" >
-            <p className="text-gray-600 whitespace-pre-line">
-              Portaria Segura é um avançado sistema de controle de acesso em condomínios, projetado para garantir segurança e praticidade. Ele permite o registro detalhado de entradas, bem como a gestão remota de autorizações por parte dos proprietários de apartamentos. É a solução ideal para condomínios que desejam oferecer um serviço eficiente e seguro, especialmente para aqueles que gerenciam locações de temporada por meio de plataformas.
-            </p>
-          </div>
-        </div>
+      <div className="bg-white w-full md:w-2/3 sm:w-full p-5 m-5 flex flex-row rounded-lg items-center" onClick={handleClick} style={{ cursor: 'pointer' }}>
+  {/* Image */}
+  <div className="overflow-hidden mr-3" style={{ width: '400px', height: '400px' }}>
+    <img src={preview.src} alt="Preview" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+  </div>
+  {/* Text */}
+  <div className="flex flex-col">
+    <h2 className="text-xl font-bold text-gray-800 mb-2">Portaria Segura</h2>
+    {/* Headlines */}
+    <ul className="list-disc list-inside text-gray-600">
+      <li>Máxima segurança para moradores e visitantes</li>
+      <li>Gestão remota de autorizações</li>
+      <li>Registro detalhado de entradas e saídas</li>
+      <li>Ideal para condomínios com locações de temporada e comerciais</li>
+      <li>Interface intuitiva e fácil de usar</li>
+      <li>Atendimento e suporte dedicados</li>
+    </ul>
+  </div>
+</div>
+
 
 
 
